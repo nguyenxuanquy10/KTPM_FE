@@ -1,0 +1,14 @@
+.Setting {
+
+    &_container {
+
+        &_body {
+            align-self:center;
+            text-align: center;
+            &_icon, >h1 {
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+    }
+}

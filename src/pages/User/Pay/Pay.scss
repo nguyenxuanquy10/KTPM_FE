@@ -1,0 +1,21 @@
+$white: #fff;
+
+.Pay {
+
+    &_container {
+
+        &_content {
+            align-self: center;
+            >h1 {
+                font-size: 26px;
+                color: $white;
+            }
+
+            >.icon {
+                text-align: center;
+                font-size: 24px;
+                color: $white;
+            }
+        }
+    }
+}

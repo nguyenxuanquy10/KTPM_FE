@@ -1,0 +1,143 @@
+.container {
+  > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 26.36px;
+    color: #fff;
+  }
+  .form-register {
+    background-color: #41424f;
+    margin-top: 27.71px;
+
+    &_items {
+      padding: 0 95.79px 52.72px 95.79px;
+
+      .item {
+        padding-top: 18.92px;
+
+        .item__input {
+          display: flex;
+          position: relative;
+
+          .icon {
+            position: absolute;
+            top: 50%;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            right: 12px;
+          }
+
+          .error {
+            color: #f32314;
+            padding-top: 8px;
+          }
+        }
+        .error {
+          color: #f32314;
+          padding-top: 8px;
+        }
+      }
+    }
+
+    p {
+      width: 380px;
+      text-align: center;
+      color: #fff;
+    }
+
+    input {
+      width: 380px;
+      height: 54.1px;
+      padding: 8px 15px;
+      border-radius: 10px;
+    }
+
+    button {
+      margin-top: 23.65px;
+      border-radius: 10px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 20px;
+    }
+
+    .Register {
+      width: 380px;
+      height: 54.1px;
+      background-color: #f34a14;
+      &:hover {
+        background-color: #f34c14cd;
+      }
+    }
+  }
+}
+
+//modal xác nhận
+.modal {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-color: #00000090;
+
+  &_container {
+    margin: 162.22px 380px;
+    &_header {
+      h1 {
+        padding: 24.33px 225.125px;
+        text-align: center;
+        background-color: #545562;
+        font-size: 30px;
+      }
+      .icon {
+        color: #fff;
+        top: 31px;
+        right: 30px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    }
+
+    &_body {
+      background-color: #383840;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #fff;
+      p {
+        padding: 48px 68.875px 29.06px;
+      }
+      .again {
+        width: 275.5px;
+        height: 54.07px;
+        background-color: #f34a14;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        // margin: 0 259.67px 33.12px 250px;
+      }
+    }
+
+    &_body {
+      background-color: #383840;
+      color: #fff;
+      p {
+        padding: 48px 68.875px 29.06px;
+      }
+      .again {
+        width: 275.5px;
+        height: 54.07px;
+        background-color: #f34a14;
+        font-weight: 500;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        // margin: 0 259.67px 33.12px 210px;
+      }
+      // margin-top: 162.22px;
+    }
+  }
+}
