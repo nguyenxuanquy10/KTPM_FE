@@ -7,7 +7,7 @@ import { unwrapResult } from "@reduxjs/toolkit";
 import { store } from "../redux/store";
 
 const axiosClient = axios.create({
-  baseURL: "https://ecommerce-api-jsonsv.herokuapp.com/api",
+  baseURL: "https://ktpm-be.vercel.app/",
   headers: { "Content-Type": "application/json" },
 });
 
